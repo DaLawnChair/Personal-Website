@@ -1,33 +1,13 @@
-
+/*
 *
 {
     outline: 1px solid red;
-}
-ul
-{
-    list-style: none;
-}
+}*/
 .seperator
 {
     display: flex;
     padding-right: 100px;
     padding-left: 100px;
-}
-.heading1
-{
-    font-size: 64px;
-}
-.heading2
-{
-    margin-top:30px;
-    gap: 15px;
-    margin-bottom: 15px;
-    font-size:30px;
-    text-align: center;
-}
-.link
-{
-    text-decoration: none;
 }
 .minimizeSize
 {
@@ -39,8 +19,9 @@ ul
     display:flex;
 }
 
-.linkContainer
+#headerLinks, #contactLinks, #projectLinks
 {
+    list-style: none;
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
@@ -74,10 +55,43 @@ ul
 {
     color: whitesmoke;
     font-size: 48px;
-    text-decoration: none;
+}
+#aboutMeInfo
+{
+    flex-direction: column;
 }
 
-#bodyText
+#aboutMeInfo h1
+{
+    margin:0px;
+    padding:0px;
+    font-size: 64px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#aboutMeInfo #heading
+{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size:30px;
+    color: whitesmoke;
+    text-align: center;
+}
+#contactLinks .link
+{
+    height:64px;
+}
+#aboutMe #bodyText
+{
+    color: whitesmoke;
+    font-size: 24px;
+    max-width: 900px;
+}
+#linkPaster
 {
     font-size: 24px;
+    text-align: center;
 }
+
+
