@@ -38,12 +38,12 @@
             </p>
 
             <div class="projectLinks container">
-                <a class="websiteLink link" href="https://dalawnchair.github.io/TOP-calculator/" target="_blank">Link to the Calculator</a>
-                <a class="githubLink link" href="https://github.com/DaLawnChair/TOP-calculator" target="_blank">Github Link</a>
+                <a class="projectSourceLink link" href="https://dalawnchair.github.io/TOP-calculator/" target="_blank">Link to the Calculator</a>
+                <a class="projectSourceLink link" href="https://github.com/DaLawnChair/TOP-calculator" target="_blank">Github Link</a>
             </div>
         </div>
     </div> -->
-
+<!--
     <div class="seperator container" id="projects">
         <div class="heading1">Projects</div>
         <ul class="minimizeSize container linkContainer" id="projectLister">
@@ -71,20 +71,61 @@
                 </ul>
             </div>
 
+            <div class="projectLinks container">
+                <a class="projectSourceLink link" href="https://github.com/DaLawnChair/Pizza-Delivery-Paraplegic" target="_blank">Github Link</a>
+            </div>
+        </div>
+    </div>
+-->
+    
+    <div class="seperator container" id="projects">
+        <div class="heading1">Projects</div>
+        <ul class="minimizeSize container linkContainer" id="projectLister">
+            <li><img src="images/pizzaDeliveryParaplegicIcon.png" alt="Pizza Delivery Paraplegic Icon"></li>
+            <li><img src="images/calculatorIcon.png" alt="Calculator Icon"></li>
+            <li><img src="images/predicting_vs_true bounding box.png" alt="Lung Cancer Bounding Box Icon"><li>
+        </ul>
+        <div class="container" id="projectInfo">
+            <img class = "projectImage" src="images/Pizza Delivery Paraplegic Demo.gif" alt="Pizza Delivery Paraplegic Demo.gif">
+            <p class="versionText">
+                <b>Created:</b> 13 November 2022 <b>Last Modified:</b> 18 May 2023 <b>Commit Title:</b> Add files via upload 
+            </p>
+            
+            <p class="heading2">Lung Cancer Detection Using Chest X-Rays</p>
+            <p id="bodyText">
+                Our team tackled the task of finding cancer-indicating masses and nodules within lung tissue through the NIH ChestX-ray8, a publicly available chest x-ray dataset 
+                containing 112,120 clasified images of various images. We tested 3 models, Vgg16, ResNet50, and a AlexNet, and trained them on the 8313 images showing or not showing 
+                masses/nodules. I was in charge of hyperparamaterizing the Alexnet model, where it was able to get 49.21% testing accuracy, 0.49 precision, 1.00 recall, and 0.66 on F1. 
+                We also trained a detection model where we tried to locate the mass/nodule within the tissue, but with varying success. You can view the demos of both systems above.
+
+                NOTE: in order to run the projects yourself, you need to download the NIH ChestX-ray8 images and .csv files. Due to the size of the models we've trained, we cannot upload 
+                them to Github.  
+            </p>
+
+            <div class="container" id="programsUsed">
+                <div class="heading2">Programs Used</div>
+                <ul class="minimizeSize container linkContainer">
+                    <li class="lesson">Jupyter Notebook: running the notebooks</li>
+                    <li class="lesson">Gradio: running the demos</li>
+                    <li class="lesson">Anaconda: package management</li>
+                </ul>
+            </div>
+
             <div class="container" id="lessonsLearned">
                 <div class="heading2">Lessons Learned:</div>
                 <ul class="minimizeSize container linkContainer" >
-                    <li class="lesson"><b>Playtesting</b> is key to making a product feel natural</li>
-                    <li class="lesson"><b>Art</b> is not in my skillset.</li>
-                    <li class="lesson"><b>Sounds effects</b> do not have to be anything special, as long as it fits with the event</li>
+                    <li class="lesson"><b>Constistant enviornment setups</b> make sure GPU acceleration is on for training.</li>
+                    <li class="lesson"><b>Understand the data split</b> make sure the split is even so your model can't get 90% accuracy by just predicting negative.</li>
+                    <li class="lesson"><b>Look for alternative approaches</b> we could've hosted this on Kaggle and eliminated most hardware issues.</li>
                 </ul>
             </div>
 
             <div class="projectLinks container">
-                <a class="githubLink link" href="https://github.com/DaLawnChair/Pizza-Delivery-Paraplegic" target="_blank">Github Link</a>
+                <a class="projectSourceLink link" href="https://github.com/JacksonKehoe/LungCancerDetection" target="_blank">Github Link</a>
+                <a class="projectSourceLink link" href="https://github.com/JacksonKehoe/LungCancerDetection/blob/main/CUCAI_Lung_Cancer_Paper_.pdf" target="_blank">Research Paper Link</a>
             </div>
         </div>
     </div>
-
+    
 </body>
 </html>
