@@ -7,7 +7,7 @@
     <title>John's Personal Website</title>
     <link rel="stylesheet" href="basicsAndHeader.css">
     <link rel="stylesheet" href="projects.css">
-    <script src="scripts.js" defer></script> 
+    <script src="projectsScripts.js" defer></script> 
 </head>
 <body>
     <div class="seperator container" id="header">
@@ -19,41 +19,19 @@
         </ul>
     </div>
 
-    <!-- <div class="seperator container" id="projects">
-        <div class="heading1">Projects</div>
-        <ul class="minimizeSize container linkContainer" id="projectLister">
-            <li><img src="images/pizzaDeliveryParaplegicIcon.png" alt="Pizza Delivery Paraplegic Icon"></li>
-            <li><img src="images/calculatorIcon.png" alt="Calculator Icon"></li>
-        </ul>
-        <div class="container" id="projectInfo">
-            <img class = "projectImage" src="images/Pizza Delivery Paraplegic Demo.gif" alt="calculator">
-            <p class="versionText">
-                <b>Created:</b> 21 August 2022 <b>Last Modified:</b> 23 September 2022 <b>Commit Title:</b> Add readme information
-            </p>
-            
-            <p class="heading2">Calculator</p>
-            <p id="bodyText">
-                This is a basic web calculator that can perform addition, subtraction, multiplication, and division. This was made as part of the online asychronous
-                Foundations course of the web development program, The Odin Project. 
-            </p>
-
-            <div class="projectLinks container">
-                <a class="projectSourceLink link" href="https://dalawnchair.github.io/TOP-calculator/" target="_blank">Link to the Calculator</a>
-                <a class="projectSourceLink link" href="https://github.com/DaLawnChair/TOP-calculator" target="_blank">Github Link</a>
-            </div>
-        </div>
-    </div> -->
-<!--
+    
     <div class="seperator container" id="projects">
         <div class="heading1">Projects</div>
         <ul class="minimizeSize container linkContainer" id="projectLister">
-            <li><img src="images/pizzaDeliveryParaplegicIcon.png" alt="Pizza Delivery Paraplegic Icon"></li>
-            <li><img src="images/calculatorIcon.png" alt="Calculator Icon"></li>
+            <li class = "project" id="PizzaDeliveryParaplegic"><img src="images/pizzaDeliveryParaplegicIcon.png" alt="Pizza Delivery Paraplegic Icon"></li>
+            <li class = "project" id="Calculator"><img src="images/calculatorIcon.png" alt="Calculator Icon"></li>
+            <li class = "project" id="LungCancerDetection"><img src="images/predicting_vs_true bounding box.png" alt="Lung Cancer Bounding Box Icon"></li>
         </ul>
-        <div class="container" id="projectInfo">
+
+        <div class="container projectInfo" id="PizzaDeliveryParaplegic">
             <img class = "projectImage" src="images/Pizza Delivery Paraplegic Demo.gif" alt="Pizza Delivery Paraplegic Demo.gif">
             <p class="versionText">
-                <b>Created:</b> Circa 12 July 2021 <b>Last Modified:</b> 23 September 2022 <b>Commit Title:</b> Update readme to credit hook coder 
+                <b>Created:</b> Circa 12 July 2021 &emsp;<b>Last Modified:</b> 23 September 2022&emsp;<b>Commit Title:</b> Update readme to credit hook coder 
             </p>
             
             <p class="heading2">Pizza Delivery Paraplegic</p>
@@ -67,7 +45,7 @@
                 <ul class="minimizeSize container linkContainer">
                     <li class="lesson">Art: Pyxel Edit</li>
                     <li class="lesson">Sound: SFXR and Audacity(sound clipping)</li>
-                    <li class="lesson">Godot 3 Engine</li>
+                    <li class="lesson">Engine: Godot 3.5 </li>
                 </ul>
             </div>
 
@@ -75,20 +53,38 @@
                 <a class="projectSourceLink link" href="https://github.com/DaLawnChair/Pizza-Delivery-Paraplegic" target="_blank">Github Link</a>
             </div>
         </div>
-    </div>
--->
-    
-    <div class="seperator container" id="projects">
-        <div class="heading1">Projects</div>
-        <ul class="minimizeSize container linkContainer" id="projectLister">
-            <li><img src="images/pizzaDeliveryParaplegicIcon.png" alt="Pizza Delivery Paraplegic Icon"></li>
-            <li><img src="images/calculatorIcon.png" alt="Calculator Icon"></li>
-            <li><img src="images/predicting_vs_true bounding box.png" alt="Lung Cancer Bounding Box Icon"><li>
-        </ul>
-        <div class="container" id="projectInfo">
+
+        <div class="container projectInfo" id="Calculator">
+            <img class = "projectImage" src="images/Pizza Delivery Paraplegic Demo.gif" alt="calculator">
+            <p class="versionText">
+                <b>Created:</b> 21 August 2022&emsp;<b>Last Modified:</b> 23 September 2022&emsp;<b>Commit Title:</b> Add readme information
+            </p>
+            
+            <p class="heading2">Calculator</p>
+            <p id="bodyText">
+                This is a basic web calculator that can perform addition, subtraction, multiplication, and division. This was made as part of the online asychronous
+                Foundations course of the web development program, The Odin Project. 
+            </p>
+
+            <div class="container" id="programsUsed">
+                <div class="heading2">Programs Used</div>
+                <ul class="minimizeSize container linkContainer">
+                    <li class="lesson">HTML</li>
+                    <li class="lesson">CSS</li>
+                    <li class="lesson">Javascript</li>
+                </ul>
+            </div>
+
+            <div class="projectLinks container">
+                <a class="projectSourceLink link" href="https://dalawnchair.github.io/TOP-calculator/" target="_blank">Link to the Calculator</a>
+                <a class="projectSourceLink link" href="https://github.com/DaLawnChair/TOP-calculator" target="_blank">Github Link</a>
+            </div>
+        </div>
+
+        <div class="container projectInfo" id="LungCancerDetection">
             <img class = "projectImage" src="images/Pizza Delivery Paraplegic Demo.gif" alt="Pizza Delivery Paraplegic Demo.gif">
             <p class="versionText">
-                <b>Created:</b> 13 November 2022 <b>Last Modified:</b> 18 May 2023 <b>Commit Title:</b> Add files via upload 
+                <b>Created:</b> 13 November 2022&emsp;<b>Last Modified:</b> 18 May 2023&emsp;<b>Commit Title:</b> Add files via upload 
             </p>
             
             <p class="heading2">Lung Cancer Detection Using Chest X-Rays</p>
@@ -116,7 +112,7 @@
                 <ul class="minimizeSize container linkContainer" >
                     <li class="lesson"><b>Constistant enviornment setups</b> make sure GPU acceleration is on for training.</li>
                     <li class="lesson"><b>Understand the data split</b> make sure the split is even so your model can't get 90% accuracy by just predicting negative.</li>
-                    <li class="lesson"><b>Look for alternative approaches</b> we could've hosted this on Kaggle and eliminated most hardware issues.</li>
+                    <li class="lesson"><b>Look for alternative approaches</b> we could've hosted this on Kaggle and it would've eliminated most hardware issues.</li>
                 </ul>
             </div>
 
@@ -125,6 +121,8 @@
                 <a class="projectSourceLink link" href="https://github.com/JacksonKehoe/LungCancerDetection/blob/main/CUCAI_Lung_Cancer_Paper_.pdf" target="_blank">Research Paper Link</a>
             </div>
         </div>
+
+
     </div>
     
 </body>

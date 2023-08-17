@@ -1,18 +1,26 @@
-#projects, #projectInfo
+#projects, .projectInfo
 {
     flex-direction: column;
 }
 
 #projectLister
 {
-    margin-top: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .projectImage
 {
-    margin-top: 10px;
-    align-self: center;
-    width: 1500px;
-    height: auto;
+    margin:auto;
+    margin-top: 20px;
+    display: flex;
+}
+.versionText
+{
+    text-align: center;
+    margin-top:10px;
+    font-size: 18px;
 }
 
 #programsUsed, #lessonsLearned
