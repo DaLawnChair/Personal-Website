@@ -1,7 +1,7 @@
 
 #aboutMe
 {
-    padding-bottom: 75px;
+    padding-bottom: 50px;
     justify-content: space-between;
     align-items: center;
     background-color: #0866AA; /*Cyan-like colour*/
@@ -11,6 +11,8 @@
     flex-direction: column;
     padding-bottom:50px;
 }
+
+
 
 .heading1
 {

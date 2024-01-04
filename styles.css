@@ -26,10 +26,7 @@
     justify-content: space-evenly;
     gap: 20px;
 }
-#aboutMe, #projects
-{
-    padding-top: 100px;
-}
+
 #aboutMe
 {
     align-items: center;
@@ -72,8 +69,8 @@
 
 #aboutMeInfo #heading
 {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
     font-size:30px;
     color: whitesmoke;
     text-align: center;

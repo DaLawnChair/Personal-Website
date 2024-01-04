@@ -8,7 +8,7 @@ const linkPaster = document.querySelector("#linkPaster")
 var socialMediaLinkInfo = {
                             "Gmail": "johnzhou7913@gmail.com",
                             "Instagram": "www.instagram.com/bagel.muncher_67/?hl=en",
-                            "Discord": "Nm#3473",
+                            "Discord": "nm_3473",
                             "Outlook": "johnzhou2004@outlook.com"
                         }
 socialMediaLinks.forEach(link => link.addEventListener('mouseover',linkOutput))
