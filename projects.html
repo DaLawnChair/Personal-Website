@@ -7,7 +7,14 @@
     <title>John's Personal Website</title>
     <link rel="stylesheet" href="basicsAndHeader.css">
     <link rel="stylesheet" href="projects.css">
+<<<<<<< Updated upstream
     <script src="scripts.js" defer></script> 
+=======
+    <script type="module">
+        import { Octokit } from "https://esm.sh/@octokit/rest";
+    </script>
+    <script type="module" src="projectsScripts1.js" defer></script> 
+>>>>>>> Stashed changes
 </head>
 <body>
     <div class="seperator container" id="header">
@@ -67,7 +74,67 @@
                 <ul class="minimizeSize container linkContainer">
                     <li class="lesson">Art: Pyxel Edit</li>
                     <li class="lesson">Sound: SFXR and Audacity(sound clipping)</li>
+<<<<<<< Updated upstream
                     <li class="lesson">Godot 3 Engine</li>
+=======
+                    <li class="lesson">Engine: Godot 3.5 </li>
+                </ul>
+            </div>
+
+            <div class="projectLinks container">
+                <a class="projectSourceLink link" href="https://github.com/DaLawnChair/Pizza-Delivery-Paraplegic" target="_blank">Github Link</a>
+            </div>
+        </div>
+
+        <div class="container projectInfo" id="Calculator">
+            <p class="versionText">
+                <b>Created:</b> 21 August 2022&emsp;<b>Last Modified:</b> 23 September 2022&emsp;<b>Commit Title:</b> Add readme information
+            </p>
+            
+            <p class="heading2">Calculator</p>
+            <p id="bodyText">
+                This is a basic web calculator that can perform addition, subtraction, multiplication, and division. This was made as part of the online asychronous
+                Foundations course of the web development program, The Odin Project. 
+            </p>
+
+            <div class="container" id="programsUsed">
+                <div class="heading2">Programs Used</div>
+                <ul class="minimizeSize container linkContainer">
+                    <li class="lesson">HTML</li>
+                    <li class="lesson">CSS</li>
+                    <li class="lesson">Javascript</li>
+                </ul>
+            </div>
+
+            <div class="projectLinks container">
+                <a class="projectSourceLink link" href="https://dalawnchair.github.io/TOP-calculator/" target="_blank">Link to the Calculator</a>
+                <a class="projectSourceLink link" href="https://github.com/DaLawnChair/TOP-calculator" target="_blank">Github Link</a>
+            </div>
+        </div>
+
+        <div class="container projectInfo" id="LungCancerDetection">
+            <p class="versionText">
+                <b>Created:</b> 13 November 2022&emsp;<b>Last Modified:</b> 18 May 2023&emsp;<b>Commit Title:</b> Add files via upload 
+            </p>
+            
+            <p class="heading2">Lung Cancer Detection Using Chest X-Rays</p>
+            <p id="bodyText">
+                Our team tackled the task of finding cancer-indicating masses and nodules within lung tissue through the NIH ChestX-ray8, a publicly available chest x-ray dataset 
+                containing 112,120 clasified images of various images. We tested 3 models, Vgg16, ResNet50, and a AlexNet, and trained them on the 8313 images showing or not showing 
+                masses/nodules. I was in charge of hyperparamaterizing the Alexnet model, where it was able to get 49.21% testing accuracy, 0.49 precision, 1.00 recall, and 0.66 on F1. 
+                We also trained a detection model where we tried to locate the mass/nodule within the tissue, but with varying success. You can view the demos of both systems above.
+
+                NOTE: in order to run the projects yourself, you need to download the NIH ChestX-ray8 images and .csv files. Due to the size of the models we've trained, we cannot upload 
+                them to Github.  
+            </p>
+
+            <div class="container" id="programsUsed">
+                <div class="heading2">Programs Used</div>
+                <ul class="minimizeSize container linkContainer">
+                    <li class="lesson">Jupyter Notebook: running the notebooks</li>
+                    <li class="lesson">Gradio: running the demos</li>
+                    <li class="lesson">Anaconda: package management</li>
+>>>>>>> Stashed changes
                 </ul>
             </div>
 
